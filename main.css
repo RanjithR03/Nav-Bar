@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: rgb(173, 117, 117);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav h1 {
+    margin-right: auto;
+}
+
+nav p {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+nav p:hover {
+    color: white;
+}
